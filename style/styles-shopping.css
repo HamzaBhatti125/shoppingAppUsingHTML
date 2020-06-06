@@ -1,0 +1,274 @@
+/* GLOBAL STYLES */
+
+
+.header-div .navbar-collapse a {
+    color: #2B96CC;
+}
+
+.body-container{
+    padding-top: 20px;
+}
+
+.banner-col h3 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #2B96CC;
+}
+
+.banner-col li {
+    list-style: none;
+    border-bottom: 2px solid #2B96CC;
+    padding: 15px 10px;
+    text-align: center;
+}
+
+.banner-col li a {
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.banner-col li:hover,
+.banner-col li:hover a
+{
+    background: #2B96CC ;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.new-arrivals .container > h3 {
+    text-align: center;
+    padding: 10px;
+}
+
+.card {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.2s ease-in-out;
+    box-sizing: border-box;
+    margin-top:10px;
+    margin-bottom:10px;
+    background-color:#FFF;
+  }
+  
+  .card:hover {
+    box-shadow: 0 5px 5px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  }
+  .card > .card-inner {
+    padding:10px;
+  }
+  /* .card .header h2, h3 {
+    margin-bottom: 0px;
+    margin-top:0px;
+  }
+  .card .header {
+    margin-bottom:5px;
+  } */
+  .card img{
+    width:100%;
+  }
+
+  .main-categories h3 {
+    text-align: center;
+    padding: 10px;
+    color: #2B96CC;
+}
+
+.category-row .col-3 img {
+    max-width: 100%;
+}
+.category-row .row {
+    border: 2px solid #2B96CC;
+    border-radius: 5px;
+}
+
+.category-row i {
+    font-size: 25px;
+}
+
+.category-row .row {
+    margin-top: 10px;
+}
+
+i.fab.fa-opencart {
+    font-size: 60px;
+    position: absolute;
+    top: -1px;
+    z-index: 2;
+}
+
+.navbar-brand span {
+    margin-left: 85px;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.navbar-brand span sub {
+    font-size: 10px;
+    bottom: -1.15em;
+    left: -8em;
+}
+
+.form-shop h2 {
+    text-align: center;
+    padding-top: 22px;
+}
+
+.form-btn button {
+    width: 49%;
+    box-sizing: border-box;
+}
+
+.page-footer li i {
+    color: #fff;
+    padding-top: 10px;
+}
+
+footer.page-footer.font-small {
+    background: #2B96CC;
+}
+
+.footer-copyright a {
+    color: #fff;
+}
+
+.main-categories {
+    padding-bottom: 20px;
+}
+
+.confirm {
+    text-align: center;
+    text-transform: capitalize;
+    margin: 100px auto;
+    width: 80%;
+}
+
+
+/*-----------------------------------------
+  DESKTOP SPECIFIC STYLES 
+  -----------------------------------------*/
+
+  @media only screen and (min-width:1024px) {
+
+    .header-div {
+        background: #fff;
+        padding: 20px;
+        border-bottom: 2px solid #2B96CC;
+    }
+
+    .header-div ul li:first-child {
+        background: #2B96CC;
+        border-radius: 5px;
+    }
+
+    .header-div ul li:first-child a{
+        color: #fff;
+    }
+
+    .header-div .navbar-collapse a {
+        font-size: 20px;
+        margin: 0 10px;
+        font-weight: 600;
+    }
+
+    .banner-col h3 {
+        margin-left: 40px;
+    }
+
+    .category-row .col-7,
+    .category-row .col-2 {
+        padding-top: 45px;
+    }
+
+    i.fab.fa-opencart{
+        top: 15px;
+    }
+
+    .form-shop {
+        background: #2B96CC;
+    }
+
+    .form-shop .row {
+        padding: 20px;
+        background: #fff;
+    }
+
+    .form-shop h2 {
+        color: #fff;
+        font-size: 34px;
+    }
+
+    .cards-div .cols {
+            margin: 10px 40px;
+    }
+
+  }
+
+  /*---------------------------------------------------------------- 
+  COMMON STYLES FOR MOBILE AND TABLET 
+  ----------------------------------------------------------------*/
+
+@media only screen and (max-width:1023px) {
+
+    .header-div {
+        background: #2B96CC ;
+    }
+    .header-div .navbar-collapse a,
+    .header-div > a {
+        color: #fff;
+        font-weight: 600;
+    }
+
+    .header-div .dropdown-menu a {
+        color: #2B96CC !important;
+    }
+
+    button.navbar-toggler {
+        background: #fff !important;
+        color: #2B96CC;
+    }
+
+    .category-row .col-2 {
+        padding-top: 35px;
+    }
+
+    .banner-col {
+        display: none;
+    }
+
+    .form-shop h2{
+        color: #2B96CC ;
+    }
+
+    .form-shop .row {
+        border: 3px solid #2B96CC;
+        border-radius: 2px;
+        padding: 20px;
+    }
+    
+    .cards-div .cols {
+        margin: 10px 0;
+    }
+}
+
+/*---------------------------------------
+  ADJUSTMENTS FOR MOBILE  
+  ----------------------------------------*/
+
+  @media only screen and (max-width:767px) {
+
+    .banner-col {
+        display: none;
+    }
+
+    .category-row .col-3 {
+        padding-top: 25px;
+    }
+
+    .confirm h1{
+        font-size: 16px;
+    }
+
+    .confirm h4 {
+        font-size: 12px;
+    }
+  
+}
